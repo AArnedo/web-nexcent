@@ -6,17 +6,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Inter";
+}
 .contenedor{
     width: 100%;
 }
 .contenedor__main{
     background-color: #F5F7FA;
 }
+
+/* NAVBAR */
+
 .contenedor__navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: "Inter", sans-serif;
     padding: 30px 105px;
 }
 .enlaces{
@@ -34,7 +39,6 @@
         border: none;
         background: none;
         color: #4CAF4F;
-        font-weight: bold;
         cursor: pointer;
     }
     .btn_signUp{
@@ -44,5 +48,42 @@
         color: #F5F7FA;
         border-radius: 6px;
         cursor: pointer;
+    }
+}
+
+/* HEADER */
+
+.contenedor__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 95px 50px;
+}
+.header__left{
+    display: flex;
+    flex-direction: column;
+    .txt-header{
+        color: #4D4D4D;
+        font-size: 3.2rem;
+        padding-bottom: 20px;
+    }
+    .txt-green{
+        color: #4CAF4F;
+        font-size: 3.2rem;
+        padding-bottom: 20px;
+    }
+    p{
+        color: #4D4D4D;
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+    .btn-header{
+        align-self: flex-start;
+        padding: 14px 32px;
+        border: none;
+        border-radius: 6px;
+        background-color: #4CAF4F;
+        color: #F5F7FA;
     }
 }

@@ -1,0 +1,48 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+}
+.contenedor__main{
+    background-color: #F5F7FA;
+}
+.contenedor__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    padding: 30px 105px;
+}
+.enlaces{
+    display: flex;
+    gap: 50px;
+    a{
+        text-decoration: none;
+        color: #18191F;
+    }
+}
+.reg__login{
+    display: flex;
+    gap: 25px;
+    .btn_login{
+        border: none;
+        background: none;
+        color: #4CAF4F;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .btn_signUp{
+        background-color: #4CAF4F;
+        padding: 10px 20px;
+        border: none;
+        color: #F5F7FA;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+}

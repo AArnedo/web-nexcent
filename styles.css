@@ -73,10 +73,11 @@ body{
         font-size: 3.2rem;
         padding-bottom: 20px;
     }
-    p{
+    .p-small{
         color: #4D4D4D;
         font-size: 14px;
         padding-bottom: 30px;
+        font-weight:200;
     }
     .btn-header{
         align-self: flex-start;
@@ -86,4 +87,27 @@ body{
         background-color: #4CAF4F;
         color: #F5F7FA;
     }
+}
+
+/* CLient */
+
+.contenedor__client{
+    margin: 40px 0px;
+}
+.titulo__client{
+    text-align: center;
+    h2{
+        padding-bottom: 12px;
+        color: #4D4D4D;
+        font-size: 28px;
+    }
+    .p-small{
+        font-weight: 200;
+    }
+}
+.logos__client{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 26px 144px;
 }

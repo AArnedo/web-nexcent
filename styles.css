@@ -73,12 +73,6 @@ body{
         font-size: 3.2rem;
         padding-bottom: 20px;
     }
-    .p-small{
-        color: #4D4D4D;
-        font-size: 14px;
-        padding-bottom: 30px;
-        font-weight:200;
-    }
     .btn-header{
         align-self: flex-start;
         padding: 14px 32px;
@@ -87,6 +81,12 @@ body{
         background-color: #4CAF4F;
         color: #F5F7FA;
     }
+}
+.p-small{
+    color: #4D4D4D;
+    font-size: 14px;
+    padding-bottom: 30px;
+    font-weight:300;
 }
 
 /* CLient */
@@ -118,12 +118,13 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
+    color: #4d4d4d;
 }
 .titulo__whoIs{
     margin: 0 auto;
     text-align: center;
     h2{
-        color: #4d4d4d;
+        
         font-size: 28px;
         width: 450px;
         padding-bottom: 15px;
@@ -135,11 +136,111 @@ body{
 }
 .elem-contenedor-whoIs{
     display: flex;
-    text-align: center;
-    justify-content: center;
-    margin: 50px 0;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
 }
 .elem-card{
-    width: 400px;
-    gap: 20px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    width: 250px;
+    img{
+        width: 70px;
+    }
+    h2{
+        text-align: center;
+        width: 80%;
+        font-weight: bold;
+    }
+    hr{
+        width: 100%;
+        opacity: .4;
+    }
+}
+
+/* unseen experience */
+
+.unseen-experience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    .txt-experience{
+        width: 40%;
+        padding: 30px 50px;
+        color: #4D4D4D;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: flex-start;
+        h2{
+            font-size: 32px;
+        }
+        p{
+            font-weight: 300;
+        }
+        button{
+            padding: 14px 32px;
+            border: none;
+            border-radius: 6px;
+            background-color: #4CAF4F;
+            color: #F5F7FA; 
+        }
+    }
+}
+
+/* business-reinvention */
+
+.business-reinvention{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #F5F7FA;
+    padding: 64px 144px;
+
+    .txt-business{
+        width: 70%;
+        letter-spacing: 2px;
+        .t-gray{
+            color: #4D4D4D;
+            font-size: 30px;
+        }
+        .t-green{
+            color: #4CAF4F;
+            font-size: 30px;
+            padding: 10px 0;
+        }
+    }
+}
+.business-interaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px 40px;
+
+    .card-business{
+        display: flex;
+        align-items: center;
+        padding-right: 40px;
+        gap: 16px;
+        .img-business img{
+            width: 48px;
+        }
+
+        .statistic{
+            h2{
+                font-size: 24px;
+                padding-top: 24px;
+                color: #4D4D4D;
+            }
+        }
+    }
 }
